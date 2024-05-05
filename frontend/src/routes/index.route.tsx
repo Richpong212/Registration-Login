@@ -7,7 +7,7 @@ import Login from "../pages/login/Login";
 // Component for defining application routes
 const AppRoutes = () => {
   // Check if user is authenticated (dummy value for demonstration)
-  const user = true;
+  const user = false;
 
   return (
     // Wrap routes with BrowserRouter to enable routing
